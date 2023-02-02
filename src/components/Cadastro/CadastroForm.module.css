@@ -1,0 +1,45 @@
+.form_cliente {
+    widht: 100%;
+    margin: 2em -5em 0 -5em;
+    color: rgb(40, 121, 168);
+}
+
+.form_control_nome, .form_control_email, .form_control_cpforcnpj, .form_control_data_nascimento, .form_control_telefone, .form_control_senha {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+
+.form_control_nome label, .form_control_email label, .form_control_cpforcnpj label, .form_control_data_nascimento label, .form_control_telefone label, .form_control_senha label {
+    margin-bottom: .6em;
+    font-weight: bold;
+}
+
+.form_control_nome input, .form_control_email input, .form_control_cpforcnpj input, .form_control_data_nascimento input, .form_control_telefone input, .form_control_senha input {
+    padding: .7em;
+    border-radius: 0;
+    border: none;
+}
+
+.cadastra {
+    border: none;
+    background-color: white;
+    color: rgb(40, 121, 168);
+    padding: 0.3em 0.5em;
+    font-size: 1.1em;
+    transition: 0.5s;
+    border-radius: 10px;
+    font-weight: bold;  
+   
+}
+
+.cadastra:hover {
+    cursor: pointer;
+    background-color: rgb(40, 121, 168);
+    color: white;
+
+}
+
+.form_control input::placeholder {
+    color: #7b7b7b;
+}

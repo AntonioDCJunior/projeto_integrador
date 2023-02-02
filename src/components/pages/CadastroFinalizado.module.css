@@ -1,0 +1,31 @@
+.form_moda {
+    margin-top: 2em;
+    color: rgb(40, 121, 168);
+}
+
+.button_moda {    
+    border: none;
+    background-color: white;
+    color: rgb(40, 121, 168);
+    padding: 0.3em 0.5em;
+    font-size: 1.1em;
+    transition: 0.5s;
+    border-radius: 10px;
+    font-weight: bold;
+    
+}
+
+.button_modal_clos {
+    background-color: rgb(186, 225, 248);
+    border: none;    
+    color: rgb(40, 121, 168);
+    padding: 0.3em 0.5em;
+    font-size: 1em;
+    transition: 0.5s;
+    border-radius: 5px;
+    font-weight: bold;
+    position:absolute; 
+    top:1px;
+    right:1px;    
+    
+}

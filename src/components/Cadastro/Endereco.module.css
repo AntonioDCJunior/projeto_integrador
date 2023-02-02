@@ -1,0 +1,52 @@
+.form_endereco {
+    widht: 100%;
+    margin: 8em 0 0 25em;
+    color: rgb(40, 121, 168);
+}
+
+.form_control_cep, .form_control_rua, .form_control_bairro, .form_control_cidade, .form_control_estado {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+
+.form_titulo_endereco {
+    margin-top: -7em;
+    padding:  2em;
+} 
+
+
+.form_control_cep label, .form_control_rua label, .form_control_bairro label, .form_control_cidade label, .form_control_estado label {
+    margin-bottom: .6em;
+    font-weight: bold;
+}
+
+.form_control_cep input, .form_control_rua input, .form_control_bairro input, .form_control_cidade input, .form_control_estado input {
+    padding: .7em;
+    border-radius: 0;
+    border: none;
+    width: 400px;
+}
+
+.form_control input::placeholder {
+    color: #7b7b7b;
+}
+
+.finalizar {
+    border: none;
+    background-color: white;
+    color: rgb(40, 121, 168);
+    padding: 0.3em 0.5em;
+    font-size: 1.1em;
+    transition: 0.5s;
+    border-radius: 10px;
+    font-weight: bold;  
+   
+}
+
+.finalizar:hover {
+    cursor: pointer;
+    background-color: rgb(40, 121, 168);
+    color: white;
+
+}

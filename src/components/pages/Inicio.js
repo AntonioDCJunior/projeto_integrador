@@ -12,7 +12,7 @@ function Inicio () {
             <h3>Aqui você encontra os melhores prestadores de serviços</h3>
             <p>A Indique Alguém vai te conectar a profissionais das mais diversas áreas</p>
 
-            <LinkButton to="/newusuario" text="Já tem uma conta?" />    
+            {/* <LinkButton to="/newusuario" text="Já tem uma conta?" />     */}
 
             <img src={savings} alt="IndiqueAlguem"/>
 

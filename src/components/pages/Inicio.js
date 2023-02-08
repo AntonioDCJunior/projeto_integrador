@@ -16,7 +16,7 @@ function Inicio () {
 
             <img src={savings} alt="IndiqueAlguem"/>
 
-            <h3>Como funciona?</h3>
+            <h3>Como funciona</h3>
 
             {/* <form className="caixa-form">                               
                                         

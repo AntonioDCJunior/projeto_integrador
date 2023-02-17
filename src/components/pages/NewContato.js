@@ -1,5 +1,6 @@
 import styles from './NewContato.module.css'
 import Contato from './Contato'
+import Carrossel from './Carrossel'
 
 
 function NewContato () {
@@ -7,6 +8,7 @@ function NewContato () {
         <div className={styles.newcontato_container}>
             <h1>Entre em contato conosco</h1>
             <Contato />
+            <Carrossel />
             
             
         </div>

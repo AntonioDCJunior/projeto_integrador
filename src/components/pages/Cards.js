@@ -5,15 +5,15 @@ function Cards() {
 
     const [cards] = useState([
         {
-            title: 'Card-1',
+            title: '1',
             text: 'Já pensou em trabalhar para si mesmo ou prestar algum serviço nas horas vagas?'
         },
         {
-            title: 'Card-2',
+            title: '2',
             text: 'Basta preencher um formulário e você se torna um prestador de serviço na Indique Alguém'
         },
         {
-            title: 'Card-3',
+            title: '3',
             text: 'Aqui você anuncia seu trabalho e muitas pessoas terão acesso'
         },
 

@@ -1,4 +1,10 @@
 import {motion} from 'framer-motion';
+import React from "react";
+import ReactDOM from "react-dom";
+import Carousel from "react-elastic-carousel";
+import Item from "./Item";
+import styles from "./Carrossel.module.css"
+import savings from '../../img/buscando_prestador.png'
 
 // import image1 from '../../img/encanador1.png'
 // import image2 from '../../img/encanador2.png'
@@ -6,32 +12,35 @@ import {motion} from 'framer-motion';
 
 // const images = [image1, image2, image3]
 
+const breakPoints = [
+    { width: 1, itemsToShow: 1 },
+    { width: 550, itemsToShow: 2 },
+    { width: 768, itemsToShow: 3 },
+    { width: 1200, itemsToShow: 4 },
+  ];
+  
+
 function Carrossel () {
+
+
+
     return (
-        <div>
-            <div className={styles.home_h3}>
+        <>
+            {/* <h1 style={{ textAlign: "center" }}>Prestadores de serviços melhores avaliados</h1> */}
+            <div className={styles.carrossel}>
+                <Carousel breakPoints={breakPoints}>
+                    <Item >One</Item>
+                    <Item>Two</Item>
+                    <Item>Three</Item>
+                    <Item>Four</Item>
+                    <Item>Five</Item>
+                    <Item>Six</Item>
+                    <Item>Seven</Item>
+                    <Item>Eight</Item>
+                </Carousel>
+      </div>
                 
-                <h3>Você presta algum serviço?</h3>
-                
-                <p>A Indique alguém é um serviço online criado para eletricistas, diaristas e profissionais de serviços, como você. Conheça clientes e mostre seu trabalho para o mundo sem gastar 1 real!</p>
-            </div>
-
-        {/* <div className={styles.wraper}>
-                
-            <motion.div className={styles.carousel}>
-                <motion.div className={styles.inner}>
-
-                    {images.map(image => (
-                        <motion.div key={image}>
-                            <img src={image} alt="Texto alt" />
-                        </motion.div>
-                    ))}
-
-                </motion.div>
-            </motion.div>
-        </div> */}
-
-        </div>
+        </>
     )
 }
 

@@ -6,7 +6,8 @@
     transition: 0.5s;
     border-radius: 10px;
     font-weight: bold;
-    margin-top: 15em;
+    margin-top: 17em;
+    margin: 20em;
 }
 
 .btn:hover {

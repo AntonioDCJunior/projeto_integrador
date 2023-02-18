@@ -124,10 +124,13 @@ function Inicio () {
         </section>
         <Cards />
         <LinkButton to="/newusuario" text="Já tem uma conta?" />
+
+        <Carrossel />
             
         
         
         </div>
+        
         
     )
 }
